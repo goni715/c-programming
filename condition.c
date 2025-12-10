@@ -51,6 +51,14 @@ int main(){
       printf("y is also greater than 20\n");
      }  
    } 
+
+   int myNum = 5;
+
+  if (myNum % 2 == 0) {
+    printf("%d is even.\n", myNum);
+  } else {
+    printf("%d is odd.\n", myNum);
+  }
    
     return 0;
 }
