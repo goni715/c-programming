@@ -37,7 +37,7 @@ int main(){
      int count=0;
 
      //count until null = \0
-    //  for(int i=0; numbers[i]!='\0'; i++){
+    //  for(int i=0; numbers[i] != '\0'; i++){
     //     count++;
     //  }
 
@@ -45,7 +45,7 @@ int main(){
 
     //while loop
     int x=0;
-    while (numbers[x]!='\0')
+    while (numbers[x] != '\0')
     {
         count++;
         x++;
