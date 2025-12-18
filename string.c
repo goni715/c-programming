@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
     char myName[] = "Osman Goni";
@@ -32,9 +33,9 @@ int main(){
 
 
      //count
-     char numbers[100];  //input=GoniHales
-     scanf("%s", numbers);
-     int count=0;
+     //char numbers[100];  //input=GoniHales
+     //scanf("%s", numbers);
+     //int count=0;
 
      //count until null = \0
     //  for(int i=0; numbers[i] != '\0'; i++){
@@ -44,16 +45,19 @@ int main(){
     //  printf("%d\n", count); //output=9
 
     //while loop
-    int x=0;
-    while (numbers[x] != '\0')
-    {
-        count++;
-        x++;
-        /* code */
-    }
-    printf("%d\n", count); //output=9
+    // int x=0;
+    // while (numbers[x] != '\0')
+    // {
+    //     count++;
+    //     x++;
+    // }
+    //printf("%d\n", count); //output=9
     
 
+    //string functions
+    char address[] = "Saidpur, Nilphamari";
+    printf("%zu\n", strlen(address));
+    printf("%zu\n", sizeof(address));
 
     return 0;
 }
