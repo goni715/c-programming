@@ -5,6 +5,7 @@ int main(){
     char a[20];
 
     scanf("%s", a); //input = Osman Gon/ia
+    printf("%s", a);
 
     for(int i=0; i < strlen(a); i++){
         if(a[i] == '/'){
